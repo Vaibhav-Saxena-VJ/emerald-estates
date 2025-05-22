@@ -46,32 +46,7 @@
                                 <img class="main__logo--img" src="{{ asset('assets') }}/img/logo/logo-n.png" alt="logo-img">
                             </a>
                         </div>
-                        <div class="main__menu d-none d-lg-block">
-                            <nav class="main__menu--navigation">
-                                <ul class="main__menu--wrapper d-flex">
-                                    <!-- <li class="main__menu--items">
-                                        <a class="main__menu--link" href="{{ url('/') }}"><svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5.5 0L0 4.125V11H3.72581V8.59381C3.72581 7.64165 4.51713 6.87506 5.5 6.87506C6.48287 6.87506 7.27419 7.64165 7.27419 8.59381V11H11V4.125L5.5 0Z" fill="#FA4A4A"/>
-                                            </svg>
-                                            Home
-                                        </a>
-                                    </li>
-                                    <li class="main__menu--items">
-                                        <a class="main__menu--link" href="#"> Listing </a>  
-                                    </li>
-                                    <li class="main__menu--items">
-                                        <a class="main__menu--link" href="#"> Properties </a>  
-                                    </li>
-                                    <li class="main__menu--items">
-                                        <a class="main__menu--link" href="#"> Dashboard </a>  
-                                    </li>
-                                    <li class="main__menu--items">
-                                        <a class="main__menu--link" href="#">News </a>
-                                    </li> -->
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="main__header--right d-flex align-items-center">
+                        <div class="main__header--right d-mob-none d-flex align-items-center">
                             <a class="add__listing--btn solid__btn" href="#"><span>Reach Us</span>
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L16.27 14.32C16.66 13.93 17.26 13.8 17.78 13.96C19.19 14.4 20.71 14.64 22.25 14.64C22.66 14.64 23 14.98 23 15.39V20.5C23 20.91 22.66 21.25 22.25 21.25C11.3 21.25 2.75 12.7 2.75 1.75C2.75 1.34 3.09 1 3.5 1H8.61C9.02 1 9.36 1.34 9.36 1.75C9.36 3.29 9.6 4.81 10.04 6.22C10.2 6.74 10.07 7.34 9.68 7.73L6.62 10.79Z" fill="white"/>
@@ -89,12 +64,12 @@
             <div class="offcanvas__inner">
                 <div class="offcanvas__logo">
                     <a class="offcanvas__logo_link" href="#">
-                        <img src="{{ asset('assets') }}/img/logo/nav-log.png" alt="Logo-img" width="158" height="36">
+                        <img class="main__logo--img" src="{{ asset('assets') }}/img/logo/logo-n.png" alt="logo-img">
                     </a>
                     <button class="offcanvas__close--btn" data-offcanvas>close</button>
                 </div>
                 
-                <nav class="offcanvas__menu">
+                <nav class="offcanvas__menu d-none">
                     <ul class="offcanvas__menu_ul">
                         <li class="offcanvas__menu_li">
                             <a class="offcanvas__menu_item" href="#">Home</a>
